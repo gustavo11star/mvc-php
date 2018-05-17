@@ -1,0 +1,21 @@
+{
+    "name": "mvc/php",
+    "description": "simples mvc com php",
+    "require": {
+        "slim/slim": "^3.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app/"
+        },
+        "files": [
+            "app/Core/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Gustavo Lima",
+            "email": "gustavo11star@gmail.com"
+        }
+    ]
+}
